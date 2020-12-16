@@ -6,7 +6,7 @@ I am adding a few basic instructions that (I hope) will be useful to compile (if
 
 1) Make sure you have Mono installed in Ubuntu (https://www.mono-project.com/download/stable/#download-lin)
 
-2) Create a global path for the libraries: export MONO_PATH=/path_to/Stanford.NLP.CoreNLP.3.9.2.0/lib:/path_to/Stanford_Parser/IKVM.8.1.5717.0/lib. Or as an alternative, copy and paste the libraries IKVM.OpenJDK.Core.dll and stanford-corenlp-3.9.2.dll into the folder where the ".exe" file is saved
+2) Create a global path for the libraries: export MONO_PATH=/path_to/Stanford.NLP.CoreNLP.3.9.2.0/lib:/path_to/Stanford_Parser/IKVM.8.1.5717.0/lib. Or as an alternative, copy and paste the libraries stored in IKVM.8.1.5717.0 and stanford-corenlp-3.9.2.dll into the folder where the ".exe" file is saved
 
 3) Compile the code: csc SP.cs -r:/path_to/IKVM.8.1.5717.0/lib/IKVM.OpenJDK.Core.dll -r:/path_to/Stanford.NLP.CoreNLP.3.9.2.0/lib/stanford-corenlp-3.9.2.dll
 
