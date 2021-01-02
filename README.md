@@ -47,3 +47,5 @@ dobj(Robot-1, milk-5)
 case(table-8, on-6)
 det(table-8, the-7)
 nmod:on(Robot-1, table-8)
+
+If you have any question and/or want to report bugs, please e-mail me (Ale) at: pressalex@hotmail.com
