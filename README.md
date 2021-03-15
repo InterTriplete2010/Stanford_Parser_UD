@@ -1,6 +1,6 @@
 # Stanford_Parser_UD
 
-This is a very simple program to get people started to extract Universal Dependencies with the Stanford Parser by using C#. The program was written in Ubuntu 20.04 and is based on Sergey Tihon's library (https://sergey-tihon.github.io/Stanford.NLP.NET/StanfordParser.html). 
+This is a very simple program to get people started to extract Universal Dependencies with the Stanford Parser by using C#. The program was written in Ubuntu 20.04 and is based on Sergey Tihon's library (https://www.nuget.org/packages/Stanford.NLP.CoreNLP/3.9.2). 
 
 I am adding a few basic instructions that (I hope) will be useful to compile (if the user wants to make changes) and run the code.
 
